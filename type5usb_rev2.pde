@@ -238,8 +238,6 @@ void loop() {
       }
     } else if(value == 0x7f) {
       UsbKeyboard.clearKeys(modifier_value);
-    } else if(scancodes[value] == 72) { // PAUSE
-      if(keystate == KEYUP) { send_hex(LED_state); }
     } else {
       if(keystate == KEYDOWN) {
 	UsbKeyboard.sendKeypress(scancodes[value], modifier_value);
