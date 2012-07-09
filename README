@@ -10,3 +10,6 @@ Keyrelease separately, and extending the range of available keys to incorporate
 the larger number of keys on the Sun Keyboard.
 
 Simple schematic is in the schema.txt file.
+
+The Makefile approach requires a setup version of the Arduino-Makefile project,
+found at https://github.com/mjoldfield/Arduino-Makefile.git
