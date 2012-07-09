@@ -1,0 +1,12 @@
+Arduino project to convert Sun Type 5 keyboard data to USB keyboard.
+
+The Sun Keyboard uses a TTL level 1200 baud RS232 at 8N1 with inverted data.
+This is read and keycodes are translated into a set of corresponding USB
+keycodes.
+
+USB output is done through the V-USB project, using a modified (and provided)
+version of the vusb-for-arduino. Modified so that it sends Keypress and 
+Keyrelease separately, and extending the range of available keys to incorporate
+the larger number of keys on the Sun Keyboard.
+
+Simple schematic is in the schema.txt file.
