@@ -13,3 +13,11 @@ Simple schematic is in the schema.txt file.
 
 The Makefile approach requires a setup version of the Arduino-Makefile project,
 found at https://github.com/mjoldfield/Arduino-Makefile.git
+
+The Setup.mk files referenced contains the settings for the Arduino.mk:
+
+ARDUINO_DIR   = /usr/share/arduino
+ARDMK_DIR     = /usr/local
+AVR_TOOLS_DIR = /usr
+BOARD_TAG = atmega328
+ARDUINO_PORT = /dev/ttyUSB0
